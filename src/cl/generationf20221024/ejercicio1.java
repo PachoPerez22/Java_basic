@@ -32,8 +32,30 @@ public class ejercicio1 {
 	  System.out.println(j);
 	  System.out.println("*************");
 	  
-	  //de String a Long
+	// de String a Long
+	  String k= "23456";
+	  Long l= Long.valueOf(k);
+	  System.out.println(l);
 	  
+	  //de String a Float
+	  String m= "78965";
+	  Float n = Float.valueOf(m);
+	  System.out.println(n);
+	  
+	  //de String a Double
+	  String o = "5367";
+	  Double p = Double.valueOf(o);
+	  System.out.println(p);
+	  
+	  //De Long a Float
+	  Long q = 46789L;
+	  Float r = Float.valueOf(q);
+	  System.out.println(r);
+	  
+	  //de Long a Double
+	  Long s = 1234L;
+	  Double t = Double.valueOf(s);
+	  System.out.println(t);
 	 
 			
 	  
