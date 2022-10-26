@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class CapturarDatos {
 
 	public static void main(String[] args) {
-       Float IMC =calculoIMC(); //llamamaos al metodo
+       Float IMC =calculoIMC(); //llamamaos al metodo 1 Era parte
        System.out.println("Su IMC es: "+ IMC); //Imprimir el metodo del return abajo
-	   nivelIMC(IMC);
+	   nivelIMC(IMC); //se llama al metodo 3ra respuesta
        
        /*
 	 * Por debajo de 18.5 Bajo peso 
